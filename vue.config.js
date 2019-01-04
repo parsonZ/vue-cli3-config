@@ -15,7 +15,6 @@ const getEntry = globPath => {
 			chunks: ['chunk-vendors', 'chunk-common', name]
 		}
 	})
-	console.log(entries)
 	return entries;
 }
 
